@@ -1,8 +1,8 @@
 <template>
-  <main p="x-10 y-20" text-center font-sans>
-    <slot />
-    <div m="xa t-5" text="center sm" op-25>
-      [Default Layout]
-    </div>
-  </main>
+  <div h-full w-full>
+    <Header />
+    <main of-hidden font-sans>
+      <slot />
+    </main>
+  </div>
 </template>
