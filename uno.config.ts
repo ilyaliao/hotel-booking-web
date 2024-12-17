@@ -13,7 +13,7 @@ import {
 export default defineConfig({
   shortcuts: [
     {
-      'btn': 'text-black bg-white hover:(text-white bg-primary shadow-[inset_48vw_0_0_0_bf9d7d] text-white) transition-duration-250 ease-in-out',
+      'btn': 'text-black bg-white transition-duration-250 ease-in-out hover:(text-white bg-primary shadow-[inset_48vw_0_0_0_bf9d7d] text-white)',
 
       // ref: https://github.com/unocss/unocss/issues/2614
       'break-anywhere': '[@supports(overflow-wrap:anywhere)]:[overflow-wrap:anywhere] [@supports(overflow-wrap:anywhere)]:[word-break:normal]',
