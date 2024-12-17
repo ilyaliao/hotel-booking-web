@@ -39,7 +39,7 @@ useSwiper(containerRef, {
 
     <div position="absolute inset-0" flex="~ justify-between items-center" lt-md="gap-none px-none flex-col flex-justify-center" z-2 w-full gap-10 px-20>
       <div block text-start lt-md="flex flex-col items-center text-center">
-        <div flex="~ col" m="t-0 b-10 lt-md:b-5 lt-md:t-10" text-primary gap-y-2 font-700>
+        <div flex="~ col" m="t-0 b-10 lt-md:b-5 lt-md:t-10" gap-y-2 text-primary font-700>
           <h2 text="10 lt-md:7" lh-tight>
             享樂酒店
           </h2>
@@ -60,16 +60,16 @@ useSwiper(containerRef, {
         bg-gradient-to-b
         backdrop-blur-6
         lt-md="h-105 translate-x-10%"
-        class="max-h-[min(62vh,672px)] max-w-[clamp(291px,48vw,924px)]"
+        max-h="[min(62vh,672px)]" max-w="[clamp(291px,48vw,924px)]"
       >
         <div max-w-39vw translate-x="-18%" lt-md="max-w-none translate-x--11%">
-          <h1 mb-6 text="nowrap white" font-700 class="text-size-[clamp(3rem,5.2vw,6.25rem)]">
+          <h1 mb-6 text="nowrap white size-[clamp(3rem,5.2vw,6.25rem)]" font-700>
             高雄<br>豪華住宿之選
           </h1>
           <p
-            text="8 hex-e0e0e0" font="600 lt-md:700"
+            text="8 hex-e0e0e0 size-[clamp(1rem,1.7vw,2rem)]" font="600 lt-md:700"
+            mb="[min(5vh,3.75rem)]"
             whitespace="nowrap lt-md:normal"
-            class="mb-[min(5vh,3.75rem)] text-size-[clamp(1rem,1.7vw,2rem)]"
           >
             我們致力於為您提供無與倫比的奢華體驗與優質服務
           </p>
