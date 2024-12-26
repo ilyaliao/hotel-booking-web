@@ -16,7 +16,7 @@ function toggleMenu() {
 <template>
   <header
     :class="{
-      'bg-hex-000000': y > 50,
+      '!bg-hex-000000': y > 50,
       'bg-transparent': isTransparentRoute,
       'bg-hex-140F0A': !isTransparentRoute,
     }"
